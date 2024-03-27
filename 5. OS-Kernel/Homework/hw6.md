@@ -33,7 +33,14 @@
 
 **1) Установим необходимые пакеты:**
 
+Debian-based:
 `apt-get install gcc make linux-headers-$(uname -r)`
+
+RPM-based:
+`yum install gcc make linux-headers-$(uname -r)`
+
+Если пакетный менеджер DNF:
+`dnf install gcc make linux-headers-$(uname -r)`
 
 **2) Создаем файл модуля:**
 
